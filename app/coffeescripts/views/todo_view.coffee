@@ -95,6 +95,9 @@ class TodoApp.AppView extends Backbone.View
 
     @collection.fetch()
 
+    # jQuery UI sortable list
+    @$("#todo-list").sortable()
+
   # Re-rendering the App just means refreshing the statistics -- the rest
   # of the app doesn't change.
   renderStats: ->
