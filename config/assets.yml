@@ -1,6 +1,7 @@
 javascripts:
   all:
     - public/javascripts/vendor/jquery.js
+    - public/javascripts/vendor/jquery-ui.js
     - public/javascripts/vendor/underscore.js
     - public/javascripts/vendor/backbone.js
     - public/javascripts/vendor/handlebars.js
@@ -12,3 +13,4 @@ javascripts:
 stylesheets:
   all:
     - public/stylesheets/todos.css
+    - public/stylesheets/jquery-ui.css
